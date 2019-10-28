@@ -26,7 +26,7 @@ RUN set -x \
     # https://trafficserver.apache.org/downloads
  && mkdir /tmp/trafficserver \
  && cd /tmp/trafficserver \
- && curl -L http://www-eu.apache.org/dist/trafficserver/trafficserver-7.0.0.tar.bz2 | tar -xj --strip-components 1 \
+ && curl -L http://www-eu.apache.org/dist/trafficserver/trafficserver-7.1.8.tar.bz2 | tar -xj --strip-components 1 \
  && ./configure \
  && make install \
  && cd / \
